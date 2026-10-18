@@ -1,0 +1,2 @@
+# Installs the project itself plus dev tools (pytest). Dependencies live in pyproject.toml.
+-e .[dev]

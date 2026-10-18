@@ -33,6 +33,9 @@ import sys
 import uuid
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
+from dotenv import load_dotenv
+
+load_dotenv(override = True)
 
 import psycopg
 from faker import Faker
